@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStore.Domain", "DevStore.Domain\DevStore.Domain.csproj", "{21A3A1C8-DF41-4255-8CD3-8A1F60079AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStore.Infra", "DevStore.Infra\DevStore.Infra.csproj", "{3740D105-7E62-4D60-B588-8F264CCC0954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStoreAPI", "DevStoreAPI\DevStoreAPI.csproj", "{E98D7148-0099-4153-AF83-97F63A1AE291}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A3A1C8-DF41-4255-8CD3-8A1F60079AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A3A1C8-DF41-4255-8CD3-8A1F60079AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A3A1C8-DF41-4255-8CD3-8A1F60079AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A3A1C8-DF41-4255-8CD3-8A1F60079AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3740D105-7E62-4D60-B588-8F264CCC0954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3740D105-7E62-4D60-B588-8F264CCC0954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3740D105-7E62-4D60-B588-8F264CCC0954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3740D105-7E62-4D60-B588-8F264CCC0954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98D7148-0099-4153-AF83-97F63A1AE291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98D7148-0099-4153-AF83-97F63A1AE291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98D7148-0099-4153-AF83-97F63A1AE291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98D7148-0099-4153-AF83-97F63A1AE291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
